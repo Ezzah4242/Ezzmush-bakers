@@ -957,4 +957,62 @@ input, textarea, select {
   inset: 0;
   background: rgba(26,15,8,0.45);
   display: flex;
-  align-ite
+  align-items: center;
+}
+/* ==================== MOBILE RESPONSIVE FIX ==================== */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    padding: 8px 15px !important;
+    height: auto !important;
+  }
+  
+  .nav-container {
+    flex-wrap: wrap !important;
+  }
+  
+  .nav-links {
+    display: none !important;
+  }
+  
+  .hamburger {
+    display: block !important;
+  }
+  
+  .nav-actions {
+    gap: 8px !important;
+  }
+  
+  .whatsapp-nav-btn span {
+    display: none !important;
+  }
+  
+  .hero {
+    padding: 100px 20px 40px 20px !important;
+    min-height: auto !important;
+  }
+  
+  .hero h1 {
+    font-size: 28px !important;
+    line-height: 1.3 !important;
+  }
+  
+  .hero p {
+    font-size: 14px !important;
+  }
+  
+  .btn {
+    display: block !important;
+    margin: 10px auto !important;
+    width: 90% !important;
+    text-align: center !important;
+  }
+  
+  .stats {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+  
+  .logo-text {
+    font-size: 16px !important;
+  }
+     }
