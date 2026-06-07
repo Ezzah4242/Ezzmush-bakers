@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ezmush Bakers - Premium cakes, pastries, and fresh baked goods delivered across Pakistan. Order online or on WhatsApp." />
+  <title>Ezmush Bakers | Premium Bakery in Pakistan</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon"><i class="fa-solid fa-wheat-awn"></i></span>
+        <div class="logo-text">
+          <span class="logo-main">Ezmush</span>
+          <span class="logo-sub">Bakers</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#categories" class="nav-link">Categories</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <button class="search-toggle" id="searchToggle" aria-label="Search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button class="cart-btn" id="cartBtn" aria-label="Cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <a href="https://wa.me/923001234567" target="_blank" class="whatsapp-nav-btn">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>Order Now</span>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar" id="searchBar">
+      <div class="search-inner">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="searchInput" placeholder="Search for cakes, pastries, brownies..." />
+        <button id="searchClose"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero" id="home">
+    <div class="hero-bg-overlay"></div>
+
+    <!-- Decorative background image via Unsplash -->
+    <img
+      src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?w=1600&q=80"
+      alt="Ezmush Bakers hero background"
+      class="hero-bg-img"
+    />
+
+    <div class="hero-content">
+      <p class="hero-tagline">Baked With Love, Delivered With Pride</p>
+      <h1 class="hero-title">
+        Pakistan's Most Beloved<br />
+        <em>Artisan Bakery</em>
+      </h1>
+      <p class="hero-desc">
+        From celebration cakes to everyday treats, every bite from Ezmush Bakers
+        tells a story of passion, quality ingredients, and the warmth of a Pakistani kitchen.
+      </p>
+      <div class="hero-cta">
+        <a href="#products" class="btn btn-primary">Explore Our Menu</a>
+        <a href="https://wa.me/923001234567" target="_blank" class="btn btn-outline">
+          <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <strong>12+</strong>
+          <span>Years of Baking</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <strong>50,000+</strong>
+          <span>Happy Customers</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <strong>8 Cities</strong>
+          <span>Delivery Coverage</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scroll Down</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ANNOUNCEMENT STRIP
+  ============================================================ -->
+  <div class="announcement-strip">
+    <div class="strip-track">
+      <span>Free Delivery on Orders Above Rs. 2,500</span>
+      <span class="strip-dot"></span>
+      <span>Cash on Delivery Available</span>
+      <span class="strip-dot"></span>
+      <span>Same-Day Delivery in Lahore, Gujrat &amp; Gujranwala</span>
+      <span class="strip-dot"></span>
+      <span>Custom Cakes for Weddings, Birthdays &amp; Events</span>
+      <span class="strip-dot"></span>
+      <span>Free Delivery on Orders Above Rs. 2,500</span>
+      <span class="strip-dot"></span>
+      <span>Cash on Delivery Available</span>
+      <span class="strip-dot"></span>
+      <span>Same-Day Delivery in Lahore, Gujrat &amp; Gujranwala</span>
+      <span class="strip-dot"></span>
+      <span>Custom Cakes for Weddings, Birthdays &amp; Events</span>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       CATEGORIES SECTION
+  ============================================================ -->
+  <section class="categories-section" id="categories">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Browse By</p>
+        <h2 class="section-title">Our <em>Categories</em></h2>
+        <p class="section-desc">Explore our full range of freshly baked goods crafted daily with premium ingredients.</p>
+      </div>
+
+      <div class="category-grid">
+
+        <div class="category-card" data-category="cakes">
+          <div class="cat-img-wrap">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80" alt="Celebration Cakes" loading="lazy" />
+          </div>
+          <div class="cat-info">
+            <h3>Celebration Cakes</h3>
+            <span>Starting from Rs. 1,800</span>
+          </div>
+        </div>
+
+        <div class="category-card" data-category="pastries">
+          <div class="cat-img-wrap">
+            <img src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?w=600&q=80" alt="Pastries" loading="lazy" />
+          </div>
+          <div class="cat-info">
+            <h3>French Pastries</h3>
+            <span>Starting from Rs. 250</span>
+          </div>
+        </div>
+
+        <div class="category-card" data-category="cookies">
+          <div class="cat-img-wrap">
+            <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&q=80" alt="Cookies" loading="lazy" />
+          </div>
+          <div class="cat-info">
+            <h3>Artisan Cookies</h3>
+            <span>Starting from Rs. 120</span>
+          </div>
+        </div>
+
+        <div class="category-card" data-category="brownies">
+          <div class="cat-img-wrap">
+            <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80" alt="Brownies" loading="lazy" />
+          </div>
+          <div class="cat-info">
+            <h3>Fudge Brownies</h3>
+            <span>Starting from Rs. 180</span>
+          </div>
+        </div>
+
+        <div class="category-card" data-category="cupcakes">
+          <div class="cat-img-wrap">
+            <img src="https://images.unsplash.com/photo-1587668178277-295251f900ce?w=600&q=80" alt="Cupcakes" loading="lazy" />
+          </div>
+          <div class="cat-info">
+            <h3>Cupcakes</h3>
+            <span>Starting from Rs. 150</span>
+          </div>
+        </div>
+
+        <div class="category-card" data-category="bread">
+          <div class="cat-img-wrap">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80" alt="Artisan Bread" loading="lazy" />
+          </div>
+          <div class="cat-info">
+            <h3>Artisan Breads</h3>
+            <span>Starting from Rs. 350</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FEATURED PRODUCTS SECTION
+  ============================================================ -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Our Bestsellers</p>
+        <h2 class="section-title">Featured <em>Products</em></h2>
+        <p class="section-desc">Handpicked favourites loved by thousands of customers across Pakistan.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All Items</button>
+        <button class="filter-btn" data-filter="cakes">Cakes</button>
+        <button class="filter-btn" data-filter="pastries">Pastries</button>
+        <button class="filter-btn" data-filter="cookies">Cookies</button>
+        <button class="filter-btn" data-filter="brownies">Brownies</button>
+        <button class="filter-btn" data-filter="cupcakes">Cupcakes</button>
+        <button class="filter-btn" data-filter="bread">Breads</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsGrid">
+
+        <!-- Product 1 -->
+        <div class="product-card" data-category="cakes">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=500&q=80" alt="Chocolate Truffle Cake" loading="lazy" />
+            <span class="product-badge">Bestseller</span>
+            <div class="product-overlay">
+              <button class="quick-view-btn">Quick View</button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-category">Celebration Cakes</p>
+            <h3 class="product-name">Chocolate Truffle Cake</h3>
+            <p class="product-desc">Rich Belgian chocolate layers with velvety truffle cream and ganache drizzle.</p>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">Rs. 2,800</span>
+                <span class="price-old">Rs. 3,200</span>
+              </div>
+              <button class="add-cart-btn" data-name="Chocolate Truffle Cake" data-price="2800">
+                <i class="fa-solid fa-plus"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card" data-category="pastries">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=80" alt="Butter Croissant" loading="lazy" />
+            <span class="product-badge new">New</span>
+            <div class="product-overlay">
+              <button class="quick-view-btn">Quick View</button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-category">French Pastries</p>
+            <h3 class="product-name">Butter Croissant</h3>
+            <p class="product-desc">Flaky, golden, and perfectly laminated croissants baked fresh every morning.</p>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">Rs. 320</span>
+              </div>
+              <button class="add-cart-btn" data-name="Butter Croissant" data-price="320">
+                <i class="fa-solid fa-plus"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card" data-category="brownies">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1515037893149-de7f840978e2?w=500&q=80" alt="Walnut Fudge Brownie" loading="lazy" />
+            <div class="product-overlay">
+              <button class="quick-view-btn">Quick View</button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-category">Fudge Brownies</p>
+            <h3 class="product-name">Walnut Fudge Brownie</h3>
+            <p class="product-desc">Dense, gooey chocolate brownies loaded with crunchy walnuts and dark chocolate chips.</p>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">Rs. 220</span>
+              </div>
+              <button class="add-cart-btn" data-name="Walnut Fudge Brownie" data-price="220">
+                <i class="fa-solid fa-plus"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card" data-category="cakes">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=500&q=80" alt="Red Velvet Cake" loading="lazy" />
+            <span class="product-badge">Popular</span>
+            <div class="product-overlay">
+              <button class="quick-view-btn">Quick View</button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-category">Celebration Cakes</p>
+            <h3 class="product-name">Red Velvet Cake</h3>
+            <p class="product-desc">Classic red velvet sponge with cream cheese frosting and a smooth velvet finish.</p>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">Rs. 3,200</span>
+                <span class="price-old">Rs. 3,800</span>
+              </div>
+              <button class="add-cart-btn" data-name="Red Velvet Cake" data-price="3200">
+                <i class="fa-solid fa-plus"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card" data-category="cookies">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=500&q=80" alt="Choco Chip Cookies" loading="lazy" />
+            <div class="product-overlay">
+              <button class="quick-view-btn">Quick View</button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-category">Artisan Cookies</p>
+            <h3 class="product-name">Double Choco Chip Cookies</h3>
+            <p class="product-desc">Chewy on the inside, crispy on the edges — packed with double the chocolate goodness.</p>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">Rs. 180</span>
+              </div>
+              <button class="add-cart-btn" data-name="Double Choco Chip Cookies" data-price="180">
+                <i class="fa-solid fa-plus"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card" data-category="cupcakes">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=500&q=80" alt="Vanilla Swirl Cupcakes" loading="lazy" />
+            <span class="product-badge new">New</span>
+            <div class="product-overlay">
+              <button class="quick-view-btn">Quick View</button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-category">Cupcakes</p>
+            <h3 class="product-name">Vanilla Swirl Cupcakes</h3>
+            <p class="product-desc">Soft vanilla sponge topped with generous rosettes of silky buttercream frosting.</p>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">Rs. 200</span>
+              </div>
+              <button class="add-cart-btn" data-name="Vanilla Swirl Cupcakes" data-price="200">
+                <i class="fa-solid fa-plus"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card" data-category="bread">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=500&q=80" alt="Sourdough Loaf" loading="lazy" />
+            <div class="product-overlay">
+              <button class="quick-view-btn">Quick View</button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-category">Artisan Breads</p>
+            <h3 class="product-name">Classic Sourdough Loaf</h3>
+            <p class="product-desc">Slow-fermented sourdough with a crisp crust and beautifully open, airy crumb.</p>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">Rs. 550</span>
+              </div>
+              <button class="add-cart-btn" data-name="Classic Sourdough Loaf" data-price="550">
+                <i class="fa-solid fa-plus"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card" data-category="cakes">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=500&q=80" alt="Mango Cream Cake" loading="lazy" />
+            <span class="product-badge">Seasonal</span>
+            <div class="product-overlay">
+              <button class="quick-view-btn">Quick View</button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-category">Celebration Cakes</p>
+            <h3 class="product-name">Mango Cream Cake</h3>
+            <p class="product-desc">Fresh Pakistani mango puree layered between light chiffon sponge and whipped cream.</p>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">Rs. 2,400</span>
+              </div>
+              <button class="add-cart-btn" data-name="Mango Cream Cake" data-price="2400">
+                <i class="fa-solid fa-plus"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="section-cta">
+        <a href="https://wa.me/923001234567" target="_blank" class="btn btn-primary">
+          View Full Menu on WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SPECIAL OFFERS BANNER
+  ============================================================ -->
+  <section class="offers-section" id="offers">
+    <div class="container">
+      <div class="offers-grid">
+
+        <div class="offer-card offer-card--large">
+          <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=800&q=80" alt="Custom Wedding Cake" loading="lazy" />
+          <div class="offer-overlay"></div>
+          <div class="offer-content">
+            <span class="offer-tag">Limited Offer</span>
+            <h3>Custom Wedding &amp; Event Cakes</h3>
+            <p>Get 20% off on all custom orders above Rs. 8,000. Order 3 days in advance.</p>
